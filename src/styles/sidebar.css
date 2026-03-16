@@ -1,0 +1,86 @@
+.menu-wrapper{
+
+position:fixed;
+top:20px;
+left:20px;
+z-index:1000;
+
+}
+
+/* Menu Icon */
+
+.menu-icon{
+
+font-size:26px;
+cursor:pointer;
+color:#1b5e20;
+
+background:white;
+padding:10px;
+border-radius:8px;
+
+box-shadow:0 3px 10px rgba(0,0,0,0.2);
+
+}
+
+/* Menu items hidden */
+
+.menu-items{
+
+display:flex;
+flex-direction:column;
+
+margin-top:10px;
+
+opacity:0;
+transform:translateY(-10px);
+
+transition:0.3s;
+
+}
+
+/* Show menu on hover */
+
+.menu-wrapper:hover .menu-items{
+
+opacity:1;
+transform:translateY(0);
+
+}
+
+/* Links */
+
+.menu-items a{
+
+display:flex;
+align-items:center;
+
+text-decoration:none;
+
+color:#1b5e20;
+font-weight:500;
+
+margin:5px 0;
+padding:8px 12px;
+
+border-radius:6px;
+
+transition:0.2s;
+
+}
+
+/* Icons */
+
+.menu-items svg{
+
+margin-right:10px;
+
+}
+
+/* Hover background only on text */
+
+.menu-items a:hover{
+
+background:#e8f5e9;
+
+}

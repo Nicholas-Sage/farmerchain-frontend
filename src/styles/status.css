@@ -1,0 +1,90 @@
+.status-container{
+
+display:flex;
+flex-direction:column;
+
+align-items:center;
+
+margin-top:100px;
+
+}
+
+.status-container h2{
+
+color:#1b5e20;
+margin-bottom:25px;
+
+}
+
+.status-search{
+
+display:flex;
+gap:10px;
+
+margin-bottom:30px;
+
+}
+
+.status-search input{
+
+padding:10px;
+
+width:250px;
+
+border:1px solid #ccc;
+
+border-radius:6px;
+
+}
+
+.status-search button{
+
+background:#2e7d32;
+
+color:white;
+
+border:none;
+
+padding:10px 15px;
+
+border-radius:6px;
+
+cursor:pointer;
+
+}
+
+.status-card{
+
+width:350px;
+
+background:white;
+
+padding:25px;
+
+border-radius:8px;
+
+box-shadow:0 5px 20px rgba(0,0,0,0.15);
+
+}
+
+.status-card h3{
+
+color:#1b5e20;
+
+margin-bottom:15px;
+
+}
+
+.status-card p{
+
+margin:6px 0;
+
+}
+
+.status-card ul{
+
+margin-top:10px;
+
+padding-left:20px;
+
+}

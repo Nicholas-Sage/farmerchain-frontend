@@ -1,0 +1,93 @@
+.about-container{
+
+width:80%;
+
+margin:auto;
+
+margin-top:100px;
+
+text-align:center;
+
+}
+
+/* title */
+
+.about-container h1{
+
+color:#1b5e20;
+
+margin-bottom:25px;
+
+}
+
+/* intro */
+
+.about-intro{
+
+font-size:18px;
+
+margin-bottom:40px;
+
+color:#444;
+
+}
+
+/* sections */
+
+.about-section{
+
+margin-bottom:35px;
+
+}
+
+.about-section h2{
+
+color:#2e7d32;
+
+margin-bottom:10px;
+
+}
+
+.about-section p{
+
+color:#555;
+
+line-height:1.6;
+
+}
+
+/* features */
+
+.about-section ul{
+
+list-style:none;
+
+padding:0;
+
+}
+
+.about-section li{
+
+background:#f1f8e9;
+
+margin:8px auto;
+
+padding:10px;
+
+width:350px;
+
+border-radius:6px;
+
+}
+
+/* footer */
+
+.about-footer{
+
+margin-top:40px;
+
+font-style:italic;
+
+color:#444;
+
+}

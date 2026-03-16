@@ -1,0 +1,69 @@
+.documents-container{
+
+display:flex;
+flex-direction:column;
+
+align-items:center;
+
+margin-top:100px;
+
+}
+
+.documents-container h2{
+
+color:#1b5e20;
+margin-bottom:20px;
+
+}
+
+.doc-search{
+
+padding:10px;
+
+width:300px;
+
+margin-bottom:20px;
+
+border:1px solid #ccc;
+
+border-radius:6px;
+
+}
+
+table{
+
+width:80%;
+
+border-collapse:collapse;
+
+background:white;
+
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+
+}
+
+thead{
+
+background:#2e7d32;
+color:white;
+
+}
+
+th,td{
+
+padding:12px;
+text-align:center;
+
+}
+
+tbody tr{
+
+border-bottom:1px solid #eee;
+
+}
+
+tbody tr:hover{
+
+background:#f1f8e9;
+
+}
